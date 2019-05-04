@@ -4,7 +4,6 @@ import com.pagoda.design.creationModel.singleton.demo.EagerSingleton;
 import com.pagoda.design.creationModel.singleton.demo.IdlerSingleton;
 import com.pagoda.design.creationModel.singleton.demo.Singleton;
 import com.pagoda.design.creationModel.singleton.demo.User;
-import com.pagoda.design.singleton.demo.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

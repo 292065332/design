@@ -1,7 +1,6 @@
 package com.pagoda.design.creationModel.factory.abstractFactory;
 
 import com.pagoda.design.creationModel.factory.abstractFactory.method.*;
-import com.pagoda.design.factory.abstractFactory.method.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

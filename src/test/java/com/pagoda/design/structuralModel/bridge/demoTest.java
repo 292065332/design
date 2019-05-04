@@ -11,6 +11,15 @@ public class demoTest {
 
     @Test
     public void test() {
+        Abstraction abstraction = new RefinedAbstraction();
+
+        //调用第一个实现类
+        abstraction.setImplementor(new ConcreateImplementorA());
+        abstraction.operation();
+
+        //调用第二个实现类
+        abstraction.setImplementor(new ConcreateImplementorB());
+        abstraction.operation();
 
     }
 
