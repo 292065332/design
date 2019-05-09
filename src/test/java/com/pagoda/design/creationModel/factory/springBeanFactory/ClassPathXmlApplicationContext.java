@@ -32,5 +32,4 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
     public Object getBean(String id) {
         return beans.get(id);
     }
-
 }
