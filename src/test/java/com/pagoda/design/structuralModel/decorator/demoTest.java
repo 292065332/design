@@ -1,9 +1,5 @@
 package com.pagoda.design.structuralModel.decorator;
 
-import com.pagoda.design.structuralModel.bridge.Abstraction;
-import com.pagoda.design.structuralModel.bridge.ConcreateImplementorA;
-import com.pagoda.design.structuralModel.bridge.ConcreateImplementorB;
-import com.pagoda.design.structuralModel.bridge.RefinedAbstraction;
 import com.pagoda.design.structuralModel.decorator.standardDemo.Bird;
 import com.pagoda.design.structuralModel.decorator.standardDemo.Component;
 import com.pagoda.design.structuralModel.decorator.standardDemo.ConcreteComponent;

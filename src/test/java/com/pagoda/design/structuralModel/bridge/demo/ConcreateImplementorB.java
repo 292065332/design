@@ -1,4 +1,4 @@
-package com.pagoda.design.structuralModel.bridge;
+package com.pagoda.design.structuralModel.bridge.demo;
 
 /**
  * 实现B

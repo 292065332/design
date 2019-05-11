@@ -14,14 +14,18 @@ public class asListTest {
 
     @Test
     public void test() {
-        /**使用变长参数*/
-        List<String> array1 = Arrays.asList("Welcome", "to","Java", "world");
-        System.out.println(array1);
+		/**使用变长参数*/
+		List<String> array1 = Arrays.asList("Welcome", "to", "Java", "world");
+		System.out.println(array1);
 
-        /**使用数组*/
-        List<String> array2 = Arrays.asList(new String[] {"Welcome", "to","Java", "world"});
-        System.out.println(array2);
-    }
+		String s = array1.get(0);
+		System.out.println(s);
 
+		array1.add("!");
+		System.out.println(array1);
+
+		array1.remove("Java");
+		System.out.println(array1);
+	}
 
 }

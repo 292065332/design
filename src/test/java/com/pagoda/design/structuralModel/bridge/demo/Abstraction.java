@@ -1,4 +1,6 @@
-package com.pagoda.design.structuralModel.bridge;
+package com.pagoda.design.structuralModel.bridge.demo;
+
+import com.pagoda.design.structuralModel.bridge.demo.Implementor;
 
 /**
  * 定义桥接类Abstraction，其中有对Implementor接口的引用

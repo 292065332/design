@@ -1,4 +1,4 @@
-package com.pagoda.design.structuralModel.bridge;
+package com.pagoda.design.structuralModel.bridge.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
