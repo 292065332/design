@@ -1,4 +1,4 @@
-package com.pagoda.design.structuralModel.composite;
+package com.pagoda.design.structuralModel.composite.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
