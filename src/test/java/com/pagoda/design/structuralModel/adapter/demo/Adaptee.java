@@ -12,3 +12,4 @@ public class Adaptee {
 		System.out.println("实现投影功能！");
 	}
 }
+

@@ -9,12 +9,9 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
 public class demoTest {
 
-    @Test
-    public void test() {
+    public static void main(String[] arg)  {
         // 创造本体
         Component component =  new  ConcreteComponent();
 

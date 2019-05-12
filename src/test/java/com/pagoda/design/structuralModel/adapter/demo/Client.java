@@ -11,23 +11,21 @@ import org.springframework.test.context.junit4.SpringRunner;
  * @author Administrator
  *
  */
-@RunWith(SpringRunner.class)
-@SpringBootTest
 public class Client {
 	
 	public void HDMI(Target t){
 		t.handleReq();
 	}
 
-	@Test
-	public void test() {
+	public static void main(String[] arg) {
+
 		Client  c = new Client();
 
 		Adaptee a = new Adaptee();
 
-		//Target t = new Adapter();
+		Target t = new Adapter();
 
-		Target t = new Adapter2(a);
+		//Target t = new Adapter2(a);
 
 		c.HDMI(t);
 	}
