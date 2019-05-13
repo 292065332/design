@@ -3,6 +3,9 @@ package com.pagoda.design.structuralModel.composite.kill;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 容器构件 : 文件夹
+ */
 class Folder implements AbstractFile {
 	private String name;
 	//定义容器，用来存放本容器构建下的子节点
@@ -24,13 +27,13 @@ class Folder implements AbstractFile {
 	}
 
 	@Override
-	public void killVirus() {
-		System.out.println("---文件夹："+name+",进行查杀");
+	public void viewProperties() {
+		System.out.println("---文件夹："+name+",查看属性! ");
 		
 		for (AbstractFile file : list) {
-			file.killVirus();
+			file.viewProperties();
 		}
 		
 	}
-	
 }
+

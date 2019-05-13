@@ -9,9 +9,9 @@ public class VideoFile implements AbstractFile {
 		super();
 		this.name = name;
 	}
-	
+
 	@Override
-	public void killVirus() {
-		System.out.println("---视频文件："+name+",进行查杀！");
+	public void viewProperties() {
+		System.out.println("---视频文件："+name+"查看属性 ！");
 	}
 }

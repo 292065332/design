@@ -2,6 +2,9 @@ package com.pagoda.design.structuralModel.composite.kill.leaf;
 
 import com.pagoda.design.structuralModel.composite.kill.AbstractFile;
 
+/**
+ * 叶子构件 : 图形文件
+ */
 public class ImageFile implements AbstractFile {
 	private String name;
 	
@@ -11,8 +14,9 @@ public class ImageFile implements AbstractFile {
 	}
 
 	@Override
-	public void killVirus() {
-		System.out.println("---图像文件："+name+",进行查杀！");
+	public void viewProperties() {
+		System.out.println("---图像文件："+name+",查看属性！");
 	}
 	
 }
+

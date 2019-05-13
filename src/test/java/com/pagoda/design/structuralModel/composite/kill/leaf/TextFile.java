@@ -11,7 +11,7 @@ public class TextFile implements AbstractFile {
 	}
 	
 	@Override
-	public void killVirus() {
-		System.out.println("---文本文件："+name+",进行查杀！");
+	public void viewProperties() {
+		System.out.println("---文本文件："+name+",查看属性！");
 	}
 }

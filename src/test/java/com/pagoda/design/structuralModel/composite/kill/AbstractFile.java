@@ -1,6 +1,8 @@
 package com.pagoda.design.structuralModel.composite.kill;
 
-//抽象构建
+/**
+ * 抽象构件 : 定义查看属性
+ */
 public interface AbstractFile {
-	void killVirus();  //杀毒
+	void viewProperties();
 }
