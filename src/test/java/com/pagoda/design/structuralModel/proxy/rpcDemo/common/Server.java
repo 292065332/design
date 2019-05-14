@@ -1,0 +1,16 @@
+package com.pagoda.design.structuralModel.proxy.rpcDemo.common;
+
+public class Server {
+
+    /**
+     * 服务端对接口的具体实现
+     */
+    public static class HelloServiceImpl implements HelloService {
+        @Override
+        public String sayHello(String msg) {
+            String result = "hello world " + msg;
+            System.out.println(result);
+            return result;
+        }
+    }
+}

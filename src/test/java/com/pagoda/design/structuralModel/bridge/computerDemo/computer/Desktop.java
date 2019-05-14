@@ -14,6 +14,6 @@ public class Desktop extends Computer {
 	@Override
 	public void sale() {
 		super.sale();
-		System.out.println("销售台式机");
+		System.out.println("台式机");
 	}
 }

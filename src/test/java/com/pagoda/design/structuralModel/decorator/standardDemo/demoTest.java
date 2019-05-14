@@ -1,4 +1,4 @@
-package com.pagoda.design.structuralModel.decorator;
+package com.pagoda.design.structuralModel.decorator.standardDemo;
 
 import com.pagoda.design.structuralModel.decorator.standardDemo.Bird;
 import com.pagoda.design.structuralModel.decorator.standardDemo.Component;

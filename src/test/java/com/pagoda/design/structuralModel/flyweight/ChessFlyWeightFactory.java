@@ -21,8 +21,5 @@ public class ChessFlyWeightFactory {
 			map.put(color, cfw);
 			return cfw;
 		}
-		
 	}
-	
-	
 }

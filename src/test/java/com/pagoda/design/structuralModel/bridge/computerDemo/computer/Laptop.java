@@ -14,6 +14,6 @@ public class Laptop extends Computer {
 	@Override
 	public void sale() {
 		super.sale();
-		System.out.println("销售笔记本");
+		System.out.println("笔记本");
 	}
 }

@@ -1,5 +1,11 @@
 package com.pagoda.design.structuralModel.flyweight;
 
+import lombok.Data;
+
+/**
+ * 内部状态:
+ */
+@Data
 public class ConcreteChess implements ChessFlyWeight {
 
 	private String color;
@@ -14,15 +20,4 @@ public class ConcreteChess implements ChessFlyWeight {
 		System.out.println("棋子颜色："+color);
 		System.out.println("棋子位置："+c.getX()+"----"+c.getY());
 	}
-
-	@Override
-	public String getColor() {
-		return color;
-	}
-
-	@Override
-	public void setColor(String c) {
-		this.color = c;
-	}
-	
 }
