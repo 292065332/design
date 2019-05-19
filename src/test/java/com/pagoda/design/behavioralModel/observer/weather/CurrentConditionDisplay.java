@@ -15,7 +15,7 @@ class CurrentConditionDisplay implements Observer,DisplayElement{
     }
     @Override
     public void display() {
-        System.out.println("数据");
+        System.out.println("更新数据");
     }
 
     @Override
