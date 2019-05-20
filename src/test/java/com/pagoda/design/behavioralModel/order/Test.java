@@ -29,8 +29,8 @@ public class Test {
 
 
         // 定义一键搞定模式
-        QuickCommand quickCommand = new QuickCommand(new Command[]{new LightOffCommond(light),
-                new ComputerOnCommond(computer)});
+        QuickCommand quickCommand = new QuickCommand(new Command[]{
+        		new LightOffCommond(light),new ComputerOnCommond(computer)});
         System.out.println("****点击一键搞定按钮****");
         controlPanel.setCommand(8, quickCommand);
         controlPanel.keyPressed(8);
